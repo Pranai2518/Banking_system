@@ -16,44 +16,41 @@ include 'nav.php';
 
     <div class="container-fluid">
 
-        <div class="row head py-1" style="background-color: #82E0AA;">
+        <div class="row head py-1">
             <div class="col-sm-12 col-md">
                 <div class="heading text-center my-5">
+                    <br>
                     <h3>WELCOME TO</h3>
-                    <H1>ORIGIN BANK</H1>
+                    <H1 style="color:#FF4500"><b>ORIGIN BANK</b></H1>
+                    <br>
+                    <h1>We <b style="color:#FF4500">safeguard</b> and <b style="color:#FF4500">protect</b> your money</h1>
+                    <br>
+                    <p style="font-size:1.25rem">
+                    Take your financial life online. Your Origin Bank will be a
+                    one-stop-step <br> for spending, saving, budgeting, investing, and much
+                    more.<br> Bank for a better tomorrow
+                    </p>
+                    <br>
+                    <button class="btn btn-primary" type="submit">Know More</button>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-12 col-md img text-center">
-            <img src="./img/bank.png" class="img-fluid pt-2">
-        </div>
-    </div>
-
-    <div class="row activity text-center">
-        <div class="col-md mot">
-            <img src="./img/user.jpg" class="img-fluid">
-            <br>
-            <a href="createuser.php"><button style="background-color: #2785C4;">Create a User</button></a>
-        </div>
-        <div class="col-md mot">
-            <img src="./img/transfer.jpg" class="img-fluid">
-            <br>
-            <a href="transfermoney.php"><button style="background-color: #2785C4;">Make a Tranaction</button></a>
-        </div>
-        <div class="col-md mot">
-            <img src="./img/history.jpg" class="img-fluid">
-            <br>
-            <a href="transcationhistory.php"><button style="background-color: #2785C4;">Transaction History</button></a>
+            <div class="col-sm-12 col-md img text-center">
+                <img src="./img/background.png" class="img-fluid pt-2">
+            </div>
         </div>
     </div>
 
-    <div>
-        <footer class="text-center mt-5 py-2">
-            <p>&copy 2022. Made by <b>PRANAI RAJ</b></p>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="text-center mt-5 py-2">
+        <p>&copy 2022. Made by <b>PRANAI RAJ</b></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
