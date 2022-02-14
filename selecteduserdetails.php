@@ -87,7 +87,7 @@ if(isset($_POST['submit']))
     <title>Transaction</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/table.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <style type="text/css">
     	
@@ -107,7 +107,7 @@ if(isset($_POST['submit']))
 <body style="background-color : #E59866 ;">
  
 <?php
-  include 'nav.php';
+  include 'navbar.php';
 ?>
 
 	<div class="container">
